@@ -1,4 +1,5 @@
 (() => {
+  const premium=document.createElement('link');premium.rel='stylesheet';premium.href='premium.css';document.head.appendChild(premium);
   const slides=[...document.querySelectorAll('.slide')],dots=[...document.querySelectorAll('.dot')],prev=document.querySelector('.prev'),next=document.querySelector('.next'),menu=document.querySelector('.menu'),nav=document.querySelector('.navlinks'),hero=document.querySelector('.hero');
   const heroMessages=[
     {eyebrow:'WATER · ENVIRONMENT · CONSTRUCTION',title:'Engineering water systems that keep life moving.',copy:'From groundwater exploration and borehole drilling to water treatment, construction and environmental engineering.'},
